@@ -5,8 +5,11 @@ Due to the volatility of cryptocurrency speculation, investors will often try to
 
 # Evaluation of Model Performance
 1. Which model has a lower loss?
+
 The model which uses the closing price has a lower loss than the model which uses the FNG index.
 2. Which model tracks the actual values better over time?
+
 The model using the closing price tracks the actual values better over time
 3. Which window size works best for the model?
+
 The FNG model isnt reliable to use as predictions, but using a 10 day window for the price data, it can kind of track the trend, but wouldnt reliably use it for price predictions.
